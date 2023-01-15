@@ -1,6 +1,4 @@
-/*
-*@param {HTMLElement} root
-*/
+
 
 export const init=(root)=>{
     const menuButton = document.querySelector(".menu_button")

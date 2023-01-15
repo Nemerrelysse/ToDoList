@@ -1,7 +1,4 @@
-/**
- * @param {HTMLFormElement} root
- * @param {InitOptions} [options]
- */
+
 import * as DeleteElement from "./delete_element.js"
 
 export const init =(root, steps)=>{

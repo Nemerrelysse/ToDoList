@@ -1,7 +1,5 @@
-/**
- * @param {HTMLFormElement} root
- * @param {InitOptions} [options]
- */
+
+import * as GoTo from "./goTo.js"
 
 export const init =(root, lists)=>{
     const handleSubmit=async(event)=>{
@@ -12,6 +10,12 @@ export const init =(root, lists)=>{
         const element=createListElement(listName)
 
         lists.append(element)
+
+        const fromList=".menu_item"
+
+        const toList="./listdetail.html"
+
+        const goList=GoTo.init(root,fromList,toList)
 
     }
 

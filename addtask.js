@@ -1,8 +1,6 @@
-/**
- * @param {HTMLFormElement} root
- * @param {InitOptions} [options]
- */
+
 import * as DeleteElement from "./delete_element.js"
+import * as OverlayEdit from "./overlay_edit.js"
 
 export const init =(root, tasks)=>{
     
@@ -18,6 +16,9 @@ export const init =(root, tasks)=>{
         tasks.append(element)
 
         const initDelete=DeleteElement.init(element)
+
+        const initEdit=OverlayEdit.init(root)
+
 
     }
 

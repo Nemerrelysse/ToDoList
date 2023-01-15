@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contentParametresRecommencerContent.css" />
+    <link rel="stylesheet" href="parametres.css" />
 
     <script src="https://kit.fontawesome.com/f5ccf45eb3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,117 +23,118 @@
 
     <div class="wrapper">
         <div id="overlay_menu" class="hidden">
-        <aside class="menu_sidebar">
-            <article class="sidebar">
-                <!-- aside -->
-                <img src="images/mdi_close.svg" alt="" class="close_button">
+            <aside class="menu_sidebar">
+                <article class="sidebar">
+                    <!-- aside -->
+                    <img src="images/mdi_close.svg" alt="" class="close_button">
 
-                <div class="parametrHome">
-                    <div class="home">
-                        <!-- <div class="iconeHome"> -->
-                        <a class="lienIcone" href="home.html"> <i class="fa-sharp fa-solid fa-house"></i></a>
-                        <!-- </div> -->
-                    </div>
-                    <div class="notreAdresse">
-                        <p>
-                            asmadjenebasophie@AS.com
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Mes listes -->
-
-                <div class="mesListes">
-                    <div class="liste">
-                        <p>Mes listes </p>
+                    <div class="parametrHome">
+                        <div class="home">
+                            <!-- <div class="iconeHome"> -->
+                            <a class="lienIcone" href="home.html"> <i class="fa-sharp fa-solid fa-house"></i></a>
+                            <!-- </div> -->
+                        </div>
+                        <div class="notreAdresse">
+                            <p>
+                                asmadjenebasophie@AS.com
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="ligne">
-                        <p>
-                            <hr>
-                        </p>
-                    </div>
-                </div>
+                    <!-- Mes listes -->
 
-                <!-- To do today -->
-                <div class="menu_list">
+                    <div class="mesListes">
+                        <div class="liste">
+                            <p>Mes listes </p>
+                        </div>
 
-                <div class="containBox">
-                    <div class="boxtext">
-                        <p> To do today</p>
-                    </div>
-
-
-                    <div class="box">
-                        <div class="nB">2</div>
-                    </div>
-                </div>
-
-                <!-- projet tutore -->
-
-                <div class="containBox">
-                    <div class="boxtext">
-                        <p>Projet tutoré</p>
+                        <div class="ligne">
+                            <p>
+                                <hr>
+                            </p>
+                        </div>
                     </div>
 
+                    <!-- To do today -->
+                    <div class="menu_list">
 
-                    <div class="box">
-                        <div class="nB">5</div>
+                        <div class="containBox">
+                            <div class="boxtext">
+                                <p> To do today</p>
+                            </div>
+
+
+                            <div class="box">
+                                <div class="nB">2</div>
+                            </div>
+                        </div>
+
+                        <!-- projet tutore -->
+
+                        <div class="containBox">
+                            <div class="boxtext">
+                                <p>Projet tutoré</p>
+                            </div>
+
+
+                            <div class="box">
+                                <div class="nB">5</div>
+                            </div>
+                        </div>
+
+                        <!--   Stage -->
+                        <div class="containBox">
+                            <div class="stage boxtext">Stage</div>
+                        </div>
                     </div>
-                </div>
 
-                <!--   Stage -->
-                <div class="containBox">
-                <div class="stage boxtext">Stage</div>
-            </div>
+                    <!--  Nouvelle liste -->
+
+
+                    <form id="formulaire" class="menu_add_list" action="">
+                        <div class="formulaire">
+                            <div class="new">
+                                <button name="nouvelle-liste"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <div class="new">
+                                <input type="text" name="name" id="name" class="menu_add_text"
+                                    placeholder="Nouvelle liste" class="new_list_name">
+
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="spacer"></div>
+
+                    <!-- parametre et deconnection -->
+                    <div class="boxBas">
+                        <div class="deconnection">
+                            <div class="box">
+                                <a class="box" href="Parametres"> <i class="fa-solid fa-gear"></i></a>
+                            </div>
+
+                            <div class="box">
+                                <p class="padding">Paramètres</p>
+                            </div>
+                        </div>
+
+
+                        <div class="deconnection">
+                            <div class="box">
+                                <p><i class="logout fa-solid fa-power-off"></i></p>
+                            </div>
+
+
+                            <div class="box">
+                                <p class="padding">Déconnexion </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+            </aside>
         </div>
-
-                <!--  Nouvelle liste -->
-
-
-                <form id="formulaire" class="menu_add_list" action="">
-                    <div class="formulaire">
-                        <div class="new">
-                            <button name="nouvelle-liste"><i class="fa-solid fa-plus"></i></button>
-                        </div>
-                        <div class="new">
-                            <input type="text" name="name" id="name" class="menu_add_text" placeholder="Nouvelle liste" class="new_list_name">
-
-                        </div>
-                    </div>
-
-                </form>
-                <div class="spacer"></div>
-
-                <!-- parametre et deconnection -->
-                <div class="boxBas">
-                    <div class="deconnection">
-                        <div class="box">
-                            <a class="box" href="Parametres"> <i class="fa-solid fa-gear"></i></a>
-                        </div>
-
-                        <div class="box">
-                            <p class="padding">Paramètres</p>
-                        </div>
-                    </div>
-
-
-                    <div class="deconnection">
-                        <div class="box">
-                            <p><i class="logout fa-solid fa-power-off"></i></p>
-                        </div>
-
-
-                        <div class="box">
-                            <p class="padding">Déconnexion </p>
-                        </div>
-                    </div>
-                </div>
-
-            </article>
-
-        </aside>
-    </div>
 
         <!-- aside n'apparait pas lorsqu'on est en mobile first -->
         <!-- <div class="content"> -->
@@ -154,7 +155,7 @@
 
             <div class="destopParametres">
 
-                
+
 
                 <h1>Paramètres</h1>
             </div>
@@ -177,7 +178,7 @@
 
 
                     <!--section nouvelle adresse email-->
-                    <form  class="mail_form">
+                    <form class="mail_form">
 
 
 
@@ -201,12 +202,12 @@
                         <div id="containerMessageError">
                             <p id="messageVrai" class="messageVrai">Error l'adresse n'a pas etait modifier </p>
                         </div>
-                        <button type="submit" id="button" class="main_button" >Modifier l'adresse e-mail</button>
+                        <button type="submit" id="button" class="main_button">Modifier l'adresse e-mail</button>
 
                     </form>
 
 
-                    
+
                     <!--section formulaire nouveau mot de passe-->
                     <!-- <section> -->
 
@@ -258,7 +259,7 @@
 
 
         </div>
-        
+
 
     </div>
 

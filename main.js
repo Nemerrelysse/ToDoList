@@ -1,16 +1,10 @@
 import * as OverlayMenu from "./overlay_menu.js"
 import * as OverlayEdit from "./overlay_edit.js"
-
 import * as AddList from "./addList.js"
-
 import * as Logout from "./lougout.js"
-
 import * as DeleteElement from "./delete_element.js"
 import * as AddStep from "./addstep.js"
 import * as GoTo from "./goTo.js"
-
-
-
 
 const homeRoot=document.querySelector("body")
 
@@ -22,8 +16,6 @@ const logoutRoot=document.querySelector(".logout")
 if (!logoutRoot) {
 	throw new Error("Couldn't find logout root")
 }
-
-
 
 const menu=OverlayMenu.init(homeRoot)
 
@@ -47,9 +39,6 @@ const listRoot=document.querySelector(".menu_list")
 if (!listRoot) {
   throw new Error("Couldn't find list root")
 }
-
-
-
 
 const addListRoot=document.querySelector(".menu_add_list")
 
